@@ -1,9 +1,11 @@
-package com.sinothk.helper.statusBar;
+package com.sinothk.helper.statusBar.demo;
 
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+
+import com.sinothk.helper.statusBar.StatusBarUtil;
 
 /**
  * Created by jaeger on 08/03/2018.

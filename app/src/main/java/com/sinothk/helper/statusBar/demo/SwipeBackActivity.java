@@ -1,4 +1,4 @@
-package com.sinothk.helper.statusBar;
+package com.sinothk.helper.statusBar.demo;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.r0adkll.slidr.Slidr;
+import com.sinothk.helper.statusBar.StatusBarUtil;
 
 import java.util.Random;
 

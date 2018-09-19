@@ -1,4 +1,4 @@
-package com.sinothk.helper.statusBar;
+package com.sinothk.helper.statusBar.demo;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,6 +6,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.sinothk.helper.statusBar.StatusBarUtil;
 
 /**
  * Created by Jaeger on 16/2/14.

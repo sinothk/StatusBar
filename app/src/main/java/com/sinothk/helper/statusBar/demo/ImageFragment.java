@@ -1,4 +1,4 @@
-package com.sinothk.helper.statusBar;
+package com.sinothk.helper.statusBar.demo;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

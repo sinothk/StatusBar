@@ -1,4 +1,4 @@
-package com.sinothk.helper.statusBar;
+package com.sinothk.helper.statusBar.demo;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +8,7 @@ import android.support.v4.view.ViewPager;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
+import com.sinothk.helper.statusBar.StatusBarUtil;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -27,7 +28,9 @@ public class UseInFragmentActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_use_in_fragment);
+
         mVpHome = (ViewPager) findViewById(R.id.vp_home);
+
         mBottomNavigationBar = (BottomNavigationBar) findViewById(R.id.bottom_navigation_bar);
         mBottomNavigationBar.addItem(new BottomNavigationItem(R.drawable.ic_favorite, "One"))
             .addItem(new BottomNavigationItem(R.drawable.ic_gavel, "Two"))
@@ -99,6 +102,6 @@ public class UseInFragmentActivity extends BaseActivity {
 
     @Override
     protected void setStatusBar() {
-        StatusBarUtil.setTranslucentForImageViewInFragment(UseInFragmentActivity.this, null);
+        StatusBarUtil.setTranslucentForImageViewInFragment(UseInFragmentActivity.this,0, null);
     }
 }

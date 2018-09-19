@@ -1,7 +1,9 @@
-package com.sinothk.helper.statusBar;
+package com.sinothk.helper.statusBar.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import com.sinothk.helper.statusBar.StatusBarUtil;
 
 /**
  * Created by Jaeger on 16/2/14.
