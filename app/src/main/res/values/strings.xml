@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">StatusBarLib</string>
+    <string name="app_name">StatusBarUtil</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
 </resources>
