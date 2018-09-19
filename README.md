@@ -1,0 +1,2 @@
+# StatusBarManager
+StatusBar Manager
