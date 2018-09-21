@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.sinothk.helper.statusBar.StatusBarUtil;
+import com.sinothk.helper.statusBar.demo.R;
 
 /**
  * Created by Jaeger on 16/2/14.

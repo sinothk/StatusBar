@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.sinothk.helper.statusBar.demo.R;
+
 /**
  * Created by Jaeger on 16/8/11.
  *
